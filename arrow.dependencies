@@ -10,5 +10,11 @@
   {
     "repository": "android_kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/sm6250"
+  },
+  {
+    "repository": "Positron-B/vendor_xiaomi_miuicamera",
+    "target_path": "vendor/xiaomi/miuicamera",
+    "branch": "main",
+    "remote": "github"
   }
 ]

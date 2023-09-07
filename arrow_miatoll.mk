@@ -14,6 +14,9 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
+# Inherit MIUI Camera
+$(call inherit-product, vendor/xiaomi/miuicamera/MiuiCamera.mk)
+
 ARROW_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
